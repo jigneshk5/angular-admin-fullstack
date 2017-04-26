@@ -15,8 +15,22 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
   padding: 0.2em 0;
 }
 
+@media (min-width: 1200px) {
+  .container {
+    width: 100% !important;
+  }
+}
+
+// Get mixin and variables first
+@import 'sass/theme/conf/mixins';
+@import 'sass/theme/conf/colorScheme/mint';
+@import 'sass/theme/conf/variables';
+
 // Component styles are injected through grunt
 /* inject:scss */
-@import 'admin/admin.scss';
-@import 'main/main.scss';
+@import 'admin/admin';
+@import 'main/main';
+@import '../components/footer/footer';
+@import '../components/modal/modal';
+@import '../components/oauth-buttons/oauth-buttons';
 /* endinject */
