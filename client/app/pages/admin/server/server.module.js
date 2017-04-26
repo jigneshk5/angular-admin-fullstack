@@ -18,6 +18,6 @@
       });
   }
 
-  angular.module('blurAdminFullstackApp.pages.admin.server', [
+  angular.module('angularAdminFullstackApp.pages.admin.server', [
   ]).config(routeConfig);
 })();

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('blurAdminFullstackApp')
+angular.module('angularAdminFullstackApp')
   .directive('oauthButtons', function() {
     return {
       templateUrl: 'components/oauth-buttons/oauth-buttons.html',

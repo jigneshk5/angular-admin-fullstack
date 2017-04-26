@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('blurAdminFullstackApp')
+angular.module('angularAdminFullstackApp')
   .factory('Modal', function($rootScope, $uibModal) {
     /**
      * Opens a modal

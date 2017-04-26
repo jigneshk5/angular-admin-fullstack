@@ -1,5 +1,5 @@
 (function(angular, undefined) {
-  angular.module("blurAdminFullstackApp.constants", [])
+  angular.module("angularAdminFullstackApp.constants", [])
 
 .constant("appConfig", {
 	"userRoles": [

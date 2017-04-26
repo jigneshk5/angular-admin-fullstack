@@ -5,12 +5,12 @@
 (function () {
   'use strict';
 
-  angular.module('blurAdminFullstackApp.theme', [
+  angular.module('angularAdminFullstackApp.theme', [
       'toastr',
       'chart.js',
       'textAngular',
-      'blurAdminFullstackApp.theme.components',
-      'blurAdminFullstackApp.theme.inputs'
+      'angularAdminFullstackApp.theme.components',
+      'angularAdminFullstackApp.theme.inputs'
   ]);
 
 })();

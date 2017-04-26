@@ -1,4 +1,4 @@
 (function () {
   'use strict';
-  angular.module('blurAdminFullstackApp.resources', []);
+  angular.module('angularAdminFullstackApp.resources', []);
 })();

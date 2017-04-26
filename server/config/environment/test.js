@@ -5,7 +5,7 @@
 module.exports = {
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/bluradminfullstack-test'
+    uri: 'mongodb://localhost/angularAdminFullstack-test'
   },
   sequelize: {
     uri: 'sqlite://',

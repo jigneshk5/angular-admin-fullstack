@@ -6,7 +6,7 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/bluradminfullstack-dev'
+    uri: 'mongodb://localhost/angularAdminFullstack-dev'
   },
 
   // Seed database on startup

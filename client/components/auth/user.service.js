@@ -21,6 +21,6 @@
     });
   }
 
-  angular.module('blurAdminFullstackApp.auth')
+  angular.module('angularAdminFullstackApp.auth')
     .factory('User', UserResource);
 })();

@@ -39,5 +39,5 @@ class SignupController {
   }
 }
 
-angular.module('blurAdminFullstackApp')
+angular.module('angularAdminFullstackApp')
   .controller('SignupController', SignupController);

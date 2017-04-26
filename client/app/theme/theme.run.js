@@ -35,7 +35,7 @@
     $rootScope.$baSidebarService = baSidebarService;
   }
 
-  angular.module('blurAdminFullstackApp.theme')
+  angular.module('angularAdminFullstackApp.theme')
     .run(themeRun);
 
 })();

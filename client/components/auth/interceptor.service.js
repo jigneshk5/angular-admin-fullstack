@@ -27,6 +27,6 @@
     };
   }
 
-  angular.module('blurAdminFullstackApp.auth')
+  angular.module('angularAdminFullstackApp.auth')
     .factory('authInterceptor', authInterceptor);
 })();

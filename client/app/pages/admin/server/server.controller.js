@@ -56,5 +56,5 @@ class ServerController {
   }
 }
 
-angular.module('blurAdminFullstackApp')
+angular.module('angularAdminFullstackApp')
   .controller('ServerController', ServerController);

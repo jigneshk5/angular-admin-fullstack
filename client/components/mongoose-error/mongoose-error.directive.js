@@ -4,7 +4,7 @@
  * Removes server error when user updates input
  */
 
-angular.module('blurAdminFullstackApp')
+angular.module('angularAdminFullstackApp')
   .directive('mongooseError', function() {
     return {
       restrict: 'A',

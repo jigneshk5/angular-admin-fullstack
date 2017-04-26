@@ -29,7 +29,7 @@
     // });
   }
 
-  angular.module('blurAdminFullstackApp.theme')
+  angular.module('angularAdminFullstackApp.theme')
     .config(config);
 
 })();

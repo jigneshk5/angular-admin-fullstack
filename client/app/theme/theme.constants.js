@@ -36,7 +36,7 @@
     return result;
   }
 
-  angular.module('blurAdminFullstackApp.theme')
+  angular.module('angularAdminFullstackApp.theme')
     .constant('layoutSizes', {
       resWidthCollapseSidebar: 1200,
       resWidthHideSidebar: 500

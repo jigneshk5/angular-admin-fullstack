@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('blurAdminFullstackApp.util', []);
+angular.module('angularAdminFullstackApp.util', []);

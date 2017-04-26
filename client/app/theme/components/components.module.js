@@ -9,8 +9,8 @@
 (function () {
   'use strict';
 
-  angular.module('blurAdminFullstackApp.theme.components', [
-    'blurAdminFullstackApp.auth'
+  angular.module('angularAdminFullstackApp.theme.components', [
+    'angularAdminFullstackApp.auth'
   ]);
 
 })();

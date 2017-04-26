@@ -525,7 +525,7 @@ gulp.task('build:client', ['styles', 'html', 'constant', 'build:images'], () => 
 gulp.task('html', function() {
     return gulp.src(`${clientPath}/{app,components}/**/*.html`)
         .pipe(plugins.angularTemplatecache({
-            module: 'blurAdminFullstackApp'
+            module: 'angularAdminFullstackApp'
         }))
         .pipe(gulp.dest('.tmp'));
 });
@@ -533,7 +533,7 @@ gulp.task('html', function() {
 gulp.task('constant', function() {
   let sharedConfig = require(`./${serverPath}/config/environment/shared`);
   return plugins.ngConstant({
-    name: 'blurAdminFullstackApp.constants',
+    name: 'angularAdminFullstackApp.constants',
     deps: [],
     wrap: true,
     stream: true,

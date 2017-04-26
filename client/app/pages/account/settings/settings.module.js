@@ -17,6 +17,6 @@
       });
   }
 
-  angular.module('blurAdminFullstackApp.pages.account.settings', [])
+  angular.module('angularAdminFullstackApp.pages.account.settings', [])
     .config(routeConfig);
 })();

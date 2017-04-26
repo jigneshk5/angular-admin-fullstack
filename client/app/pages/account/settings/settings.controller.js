@@ -25,5 +25,5 @@ class SettingsController {
   }
 }
 
-angular.module('blurAdminFullstackApp')
+angular.module('angularAdminFullstackApp')
   .controller('SettingsController', SettingsController);

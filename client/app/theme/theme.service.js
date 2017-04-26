@@ -18,6 +18,6 @@
     };
   }
 
-  angular.module('blurAdminFullstackApp.theme')
+  angular.module('angularAdminFullstackApp.theme')
     .service('themeLayoutSettings', themeLayoutSettings);
 })();

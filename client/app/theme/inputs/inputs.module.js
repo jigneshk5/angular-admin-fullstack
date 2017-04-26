@@ -5,6 +5,6 @@
 (function () {
   'use strict';
 
-  angular.module('blurAdminFullstackApp.theme.inputs', []);
+  angular.module('angularAdminFullstackApp.theme.inputs', []);
 
 })();

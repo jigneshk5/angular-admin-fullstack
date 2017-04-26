@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  angular.module('blurAdminFullstackApp.theme')
+  angular.module('angularAdminFullstackApp.theme')
       .directive('autoExpand', autoExpand);
 
   /** @ngInject */

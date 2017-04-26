@@ -17,6 +17,6 @@
       });
   }
 
-  angular.module('blurAdminFullstackApp.pages.dashboard', [
+  angular.module('angularAdminFullstackApp.pages.dashboard', [
   ]).config(routeConfig);
 })();

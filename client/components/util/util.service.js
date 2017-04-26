@@ -65,6 +65,6 @@
     return Util;
   }
 
-  angular.module('blurAdminFullstackApp.util')
+  angular.module('angularAdminFullstackApp.util')
     .factory('Util', UtilService);
 })();

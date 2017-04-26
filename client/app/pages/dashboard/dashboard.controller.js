@@ -9,6 +9,6 @@
 
   }
 
-  angular.module('blurAdminFullstackApp.pages.dashboard')
+  angular.module('angularAdminFullstackApp.pages.dashboard')
     .controller('DashboardController', DashboardController);
 })();

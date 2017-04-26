@@ -8,7 +8,7 @@
   /**
    * Includes basic panel layout inside of current element.
    */
-  angular.module('blurAdminFullstackApp.theme')
+  angular.module('angularAdminFullstackApp.theme')
       .directive('baPanel', baPanel);
 
   /** @ngInject */

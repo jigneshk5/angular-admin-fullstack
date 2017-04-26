@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('blurAdminFullstackApp')
+angular.module('angularAdminFullstackApp')
   .controller('OauthButtonsCtrl', function($window) {
     this.loginOauth = function(provider) {
       $window.location.href = '/auth/' + provider;

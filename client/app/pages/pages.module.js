@@ -14,11 +14,11 @@
     });
   }
 
-  angular.module('blurAdminFullstackApp.pages', [
+  angular.module('angularAdminFullstackApp.pages', [
     'ui.router',
-    'blurAdminFullstackApp.pages.dashboard',
-    'blurAdminFullstackApp.pages.admin',
-    'blurAdminFullstackApp.pages.account'
+    'angularAdminFullstackApp.pages.dashboard',
+    'angularAdminFullstackApp.pages.admin',
+    'angularAdminFullstackApp.pages.account'
   ]).config(routeConfig);
 
 })();

@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  angular.module('blurAdminFullstackApp.theme.components')
+  angular.module('angularAdminFullstackApp.theme.components')
     .directive('baWizardStep', baWizardStep);
 
   /** @ngInject */

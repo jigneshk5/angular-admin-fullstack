@@ -85,6 +85,6 @@
     return conf;
   }
 
-  angular.module('blurAdminFullstackApp.theme')
+  angular.module('angularAdminFullstackApp.theme')
     .provider('baConfig', configProvider);
 })();

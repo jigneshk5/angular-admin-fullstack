@@ -16,9 +16,9 @@
       });
   }
 
-  angular.module('blurAdminFullstackApp.pages.admin', [
-    'blurAdminFullstackApp.pages.admin.users',
-    'blurAdminFullstackApp.pages.admin.signup',
-    'blurAdminFullstackApp.pages.admin.server'
+  angular.module('angularAdminFullstackApp.pages.admin', [
+    'angularAdminFullstackApp.pages.admin.users',
+    'angularAdminFullstackApp.pages.admin.signup',
+    'angularAdminFullstackApp.pages.admin.server'
   ]).config(routeConfig);
 })();

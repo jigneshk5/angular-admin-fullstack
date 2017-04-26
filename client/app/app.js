@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('blurAdminFullstackApp', [
+angular.module('angularAdminFullstackApp', [
   'ngAnimate',
   'ngCookies',
   'ngResource',
@@ -21,11 +21,11 @@ angular.module('blurAdminFullstackApp', [
   'angularSpinner',
   'ui.toggle',
 
-  'blurAdminFullstackApp.auth',
-  'blurAdminFullstackApp.constants',
-  'blurAdminFullstackApp.resources',
-  'blurAdminFullstackApp.theme',
-  'blurAdminFullstackApp.pages'
+  'angularAdminFullstackApp.auth',
+  'angularAdminFullstackApp.constants',
+  'angularAdminFullstackApp.resources',
+  'angularAdminFullstackApp.theme',
+  'angularAdminFullstackApp.pages'
   ])
   .config(function($urlRouterProvider, $locationProvider) {
     // $httpProvider.defaults.useXDomain = true;
