@@ -3,8 +3,8 @@
 
   /** @ngInject */
   function routeConfig($urlRouterProvider, baSidebarServiceProvider) {
-    $urlRouterProvider.when('/', '/home');
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.when('/', '/dashboard');
+    $urlRouterProvider.otherwise('/dashboard');
 
     baSidebarServiceProvider.addStaticItem({
       title: 'Login',
