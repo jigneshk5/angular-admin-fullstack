@@ -16,7 +16,6 @@
 
   angular.module('angularAdminFullstackApp.pages', [
     'ui.router',
-    'angularAdminFullstackApp.pages.home',
     'angularAdminFullstackApp.pages.dashboard',
     'angularAdminFullstackApp.pages.admin',
     'angularAdminFullstackApp.pages.account'

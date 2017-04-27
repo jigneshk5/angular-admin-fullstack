@@ -22,7 +22,7 @@ class SignupController {
           password: this.user.password
         })
         .then(() => {
-          // Account created, redirect to home
+          // Account created, redirect to dashboard
           this.$state.go('dashboard');
         })
         .catch(err => {
