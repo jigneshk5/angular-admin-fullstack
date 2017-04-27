@@ -3,8 +3,8 @@
 
   /** @ngInject */
   function routeConfig($urlRouterProvider, baSidebarServiceProvider) {
-    $urlRouterProvider.when('/', '/dashboard');
-    $urlRouterProvider.otherwise('/dashboard');
+    $urlRouterProvider.when('/', '/home');
+    $urlRouterProvider.otherwise('/home');
 
     baSidebarServiceProvider.addStaticItem({
       title: 'Login',
@@ -16,6 +16,7 @@
 
   angular.module('angularAdminFullstackApp.pages', [
     'ui.router',
+    'angularAdminFullstackApp.pages.home',
     'angularAdminFullstackApp.pages.dashboard',
     'angularAdminFullstackApp.pages.admin',
     'angularAdminFullstackApp.pages.account'

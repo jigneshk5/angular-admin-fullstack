@@ -16,11 +16,10 @@
               if (has) {
                 return;
               }
-
               event.preventDefault();
               return Auth.isLoggedIn(_.noop)
                 .then(is => {
-                  $state.go(is ? 'main' : 'login');
+                  $state.go(is ? 'dashboard' : 'account.login');
                 });
             });
         } else {
@@ -29,9 +28,8 @@
               if (is) {
                 return;
               }
-
               event.preventDefault();
-              $state.go('main');
+              $state.go('account.login');
             });
         }
       });
