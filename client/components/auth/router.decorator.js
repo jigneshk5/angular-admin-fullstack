@@ -6,11 +6,13 @@
     .run(function($rootScope, $state, Auth) {
       // Redirect to login if route requires auth and the user is not logged in, or doesn't have required role
       $rootScope.$on('$stateChangeStart', function(event, next) {
+        // if authenticate not defined then do nothing
         if (!next.authenticate) {
           return;
         }
 
         if (typeof next.authenticate === 'string') {
+          // role is defined for authenticate then check role permissions and logged in
           Auth.hasRole(next.authenticate, _.noop)
             .then(has => {
               if (has) {
@@ -23,6 +25,7 @@
                 });
             });
         } else {
+          // boolean is defined for authenticate then check logged in
           Auth.isLoggedIn(_.noop)
             .then(is => {
               if (is) {
